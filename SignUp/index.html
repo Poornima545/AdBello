@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <img src="../../Asset/Adbellologo.jpg" alt="adBello logo" class="logo" />
+        <form class="register-form" action="/register" method="post">
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="Email" required />
+                <input type="fullName" id="fullName" name="fullName" placeholder="Full Name" required />
+                <input type="text" id="text" name="text" placeholder="I'm here to" required />
+                <input type="phone" id="phone" name="phone" placeholder="Phone Number" required />
+                <input type="password" id='password' name="password" placeholder="Password" required />
+                <div class="checkbox-grp">
+                    <input type="checkbox" id='terms' name="terms" required />
+                    <label for="terms" class="terms">I Accept <a href="/">Terms and Conditions</a> and <a
+                            href="/">Privacy
+                            Policy</a></label>
+                </div>
+                <button type="submit">Register</button>
+                <p class="login-link">Already a Member ? &nbsp; <a href="../SignIn/index.html">Login</a></p>
+            </div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
