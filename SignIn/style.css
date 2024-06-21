@@ -39,7 +39,7 @@ body {
 
 .input-group {
     line-height: 3.5rem;
-    margin-top: 5rem;
+    margin-top: 1.5rem;
 }
 
 .input-group input {
@@ -68,6 +68,7 @@ button {
 
 .forgot-password {
     text-align: right;
+    line-height: 1;
 }
 
 .forgot-password a {
