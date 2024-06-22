@@ -17,6 +17,10 @@ body {
     border-radius: 5px;
     padding: 2rem;
     margin: 5rem;
+    /* width: 360px;
+    height: 440px;
+    padding: 30px 31px 34px 33px;
+    background-image: linear-gradient(to bottom, #7151b4, #682291 202%); */
 }
 
 .logo {
